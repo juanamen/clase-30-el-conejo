@@ -31,7 +31,7 @@ function setup()
   engine = Engine.create();
   world = engine.world;
   bunny=createSprite(250,650,100,100);
-  bunny.addImg(bunny_img);
+  bunny.addImg(rabbit);
   bunny.scale=0.2;
   ground = new Ground(200,680,600,20);
 
