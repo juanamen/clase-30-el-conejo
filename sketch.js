@@ -16,12 +16,13 @@ var fruit_con;
 var bg_img;
 var food;
 var rabbit;
+var bunny_img;
 var bunny;
 function preload()
 {
   bg_img = loadImage('background.png');
   food = loadImage('melon.png');
-  rabbit = loadImage('Rabbit-01.png');
+  bunny_img = loadImage('Rabbit-01.png');
 }
 
 function setup() 
@@ -31,7 +32,7 @@ function setup()
   engine = Engine.create();
   world = engine.world;
   bunny=createSprite(250,650,100,100);
-  bunny.addImg(rabbit);
+  bunny.addImg(bunny_img);
   bunny.scale=0.2;
   ground = new Ground(200,680,600,20);
 
