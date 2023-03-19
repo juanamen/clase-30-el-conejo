@@ -16,7 +16,7 @@ var fruit_con;
 var bg_img;
 var food;
 var rabbit;
-
+var bunny;
 function preload()
 {
   bg_img = loadImage('background.png');
